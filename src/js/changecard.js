@@ -19,7 +19,7 @@
         <li>
           <a href="#skill">
           <i class="iconfont icon-bi"></i>
-          技能</a>
+          作品</a>
         </li>
       </ul>   
     `,
