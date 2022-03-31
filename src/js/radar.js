@@ -19,7 +19,6 @@
       // 指定图表的配置项和数据
       option = {
         title: {
-          text: '技能雷达图'
         },
         tooltip: {},
         radar: {
@@ -33,11 +32,11 @@
             }
           },
           indicator: [
-            { name: 'html5', max:10},
-            { name: 'scss', max: 10},
-            { name: 'vue', max:10},
-            { name: 'ES6', max:10},
-            { name: 'Typescript', max:10},
+            { name: 'JavaScript/ HTML 5/ CSS 3', max:10},
+            { name: 'Vue.js', max: 10},
+            { name: 'ES6/ Sass', max:10},
+            { name: 'Axios/vue-router', max:10},
+            { name: ' Parcel', max:10},
             { name: 'React', max:10}
           ]
         },
@@ -48,14 +47,14 @@
             emphasis: {
               // color: 各异,
               lineStyle: {
-                width: 10
+                width: 15
               }
             }
           },
           // areaStyle: {normal: {}},
           data : [
             {
-              value : [7,8,3,5,3,3],
+              value : [8,7,6,5,5,5],
               name : '技能雷达图',
               label:{
                 normal: {
